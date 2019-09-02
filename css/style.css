@@ -1,49 +1,62 @@
-body,html{
+body,
+html {
     margin: 0;
     height: 100%;
     width: 100%;
 }
-*{
+
+* {
     box-sizing: border-box;
 }
-.menubar{
+
+.menubar {
     height: 15%;
     width: 100%;
     overflow: auto;
 }
-.logo{
+.umeetmenu{
+    width: 80%;
+    overflow: auto;
+}
+.logo {
     height: 100%;
     width: 40%;
     float: left;
 }
-.umeet{
+
+.umeet {
     height: 50%;
     width: 25%;
     margin: 20px 190px;
     background-color: black;
 }
-.menus{
-     height: 100%;
+
+.menus {
+    height: 100%;
     width: 60%;
     float: left;
 }
-.items{
-   padding: 20px 25px;
+
+.items {
+    padding: 50px 30px;
     float: left;
 }
-.home{
+
+.home {
     height: 100%;
     width: 60px;
     background-color: black;
     padding: 20px;
 }
-.conference{
+
+.conference {
     height: 100%;
     width: 100%;
     background-color: #6610f2;
     position: relative;
 }
-.container{
+
+.container {
     height: 60%;
     width: 80%;
     background-color: #6610f2;
@@ -51,7 +64,8 @@ body,html{
     top: 180px;
     left: 200px;
 }
-.mike{
+
+.mike {
     height: 50px;
     width: 50px;
     background-color: white;
@@ -59,33 +73,113 @@ body,html{
     margin: 25px 720px;
     padding: 40px;
 }
-.date{
+
+.date {
     height: 50px;
     width: 700px;
     background-color: white;
-     margin: 30px 410px;
+    margin: 30px 410px;
 }
-.title{
+
+.title {
     height: 150px;
     width: 1000px;
     background-color: white;
     margin: auto;
 }
-.buyticket{
-   height: 70px;
+
+.buyticket {
+    height: 70px;
     width: 250px;
     background-color: deeppink;
     margin: 65px 635px;
 }
-.countainer2{
+.UX{
+    height: 50%;
+    width: 100%;
+    background-color: lightgrey;
+    position: 
+}
+.countainer2 {
     height: 50%;
     width: 80%;
-    margin: auto;
-    background-color: darkseagreen;
+    background-color: lightgrey;
+    left: 190px;
+    position: relative;
 }
-.UXtitle{
-    height: 100px;
+
+.UXtitle {
+    height: 90px;
+    width: 400px;
+    background-color: #3b1d82;
+    top: 50px;
+    position: absolute;
+}
+
+.sentence {
+    height: 50px;
+    width: 500px;
+    background-color: #ea0763;
+    top: 200px;
+    position: absolute;
+}
+.para {
+    height: 170px;
     width: 600px;
+    background-color: #797979;
+    top: 280px;
+    position: absolute;
+}
+.time{
+    height: 220px;
+    width: 650px;
+    background-color: green;
+    left: 850px;
+    top: 80px;
+    position: relative;
+}
+.days{
+    height: 180px;
+    width: 180px;
+    background-color: #17a2b8;
+    left: 25px;
+    top: 19px;
+    position: absolute;
+}
+.hours{
+     height: 180px;
+    width: 180px;
+    background-color: #ffc107;
+     left: 230px;
+     top: 19px;
+    position: absolute;
+}
+.mins{
+     height: 180px;
+    width: 180px;
+    background-color: #e83e8c;
+        top: 19px;
+      left: 440px;
+    position: absolute;
+}
+.line{
+    height: 50px;
+    width: 500px;
+    background-color: hotpink;
+    position: absolute;
+    top: 330px;
+    right: 130px;
+}
+.getticket{
+    height: 50px;
+    width: 200px;
+    background-color: #3b1d82;
+     position: absolute;
+    top: 400px;
+    right: 280px;
+}
+.join{
+    height: 50px;
+    width: 150px;
     background-color: black;
-    margin-top: 100px;
 }
