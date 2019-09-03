@@ -14,10 +14,12 @@ html {
     width: 100%;
     overflow: auto;
 }
-.umeetmenu{
+
+.umeetmenu {
     width: 80%;
     overflow: auto;
 }
+
 .logo {
     height: 100%;
     width: 40%;
@@ -94,12 +96,14 @@ html {
     background-color: deeppink;
     margin: 65px 635px;
 }
-.UX{
+
+.UX {
     height: 50%;
     width: 100%;
     background-color: lightgrey;
-    position: 
+    position:
 }
+
 .countainer2 {
     height: 50%;
     width: 80%;
@@ -123,6 +127,7 @@ html {
     top: 200px;
     position: absolute;
 }
+
 .para {
     height: 170px;
     width: 600px;
@@ -130,15 +135,17 @@ html {
     top: 280px;
     position: absolute;
 }
-.time{
+
+.time {
     height: 220px;
     width: 650px;
-    background-color: green;
+    background-color: lightgray:;
     left: 850px;
     top: 80px;
     position: relative;
 }
-.days{
+
+.days {
     height: 180px;
     width: 180px;
     background-color: #17a2b8;
@@ -146,23 +153,26 @@ html {
     top: 19px;
     position: absolute;
 }
-.hours{
-     height: 180px;
+
+.hours {
+    height: 180px;
     width: 180px;
     background-color: #ffc107;
-     left: 230px;
-     top: 19px;
+    left: 230px;
+    top: 19px;
     position: absolute;
 }
-.mins{
-     height: 180px;
+
+.mins {
+    height: 180px;
     width: 180px;
     background-color: #e83e8c;
-        top: 19px;
-      left: 440px;
+    top: 19px;
+    left: 440px;
     position: absolute;
 }
-.line{
+
+.line {
     height: 50px;
     width: 500px;
     background-color: hotpink;
@@ -170,16 +180,213 @@ html {
     top: 330px;
     right: 130px;
 }
-.getticket{
+
+.getticket {
     height: 50px;
     width: 200px;
     background-color: #3b1d82;
-     position: absolute;
+    position: absolute;
     top: 400px;
     right: 280px;
 }
-.join{
+
+.event {
     height: 50px;
-    width: 150px;
+    width: 300px;
+    background-color: black;
+    margin: 200px 850px 0px 850px;
+}
+
+.join {
+    height: 70px;
+    width: 500px;
+    background-color: black;
+    margin: 40px 800px 100px 750px;
+}
+
+.reasons {
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+}
+
+.item2 {
+    float: left;
+    padding: 30px 20px;
+}
+
+.service {
+    height: 450px;
+    width: 33.33%;
+}
+
+.business {
+    height: 450px;
+    width: 33.33%;
+}
+
+.speaker {
+    height: 450px;
+    width: 33.33%;
+}
+
+.inner {
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+}
+
+.symbol {
+    height: 70px;
+    width: 70px;
+    background-color: blue;
+    margin: 30px 179px 30px 210px;
+    float: left;
+}
+
+.servicetitle {
+    height: 50px;
+    width: 240px;
+    background-color: black;
+    float: left;
+    margin-left: 120px;
+}
+
+.paragraph {
+    height: 160px;
+    width: 430px;
+    background-color: darkgrey;
+    float: left;
+    margin: 20px 20px 20px 20px;
+}
+
+.option {
+    width: 50%;
+    margin: auto;
+    overflow: auto;
+}
+
+.learnmore {
+    height: 92px;
+    width: 40%;
+    background-color: darkslateblue;
+    float: left;
+    margin: 20px 47px;
+}
+
+.buy {
+    height: 92px;
+    width: 40%;
+    background-color: darkslateblue;
+    float: left;
+    margin: 20px 47px;
+}
+
+.speakers {
+    width: 100%;
+    background-color: #2917c1;
+    margin-top: 100px;
+}
+
+.joinevent {
+    height: 50px;
+    width: 350px;
+    margin: 200px 800px 100px 800px;
     background-color: black;
 }
+
+.meet {
+    height: 80px;
+    width: 450px;
+    margin: 50px 760px;
+    background-color: black;
+}
+
+.images {
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+    padding: 20px 20px;
+}
+
+.card {
+    height: 550px;
+    width: 33.33%;
+    float: left;
+    padding: 20px;
+}
+
+.container3 {
+    background-color: #d6dbd5;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.about {
+    height: 40%;
+    width: 100%;
+    bottom: 0px;
+    position: absolute;
+    background-color: #39207d;
+}
+
+.speakername {
+    height: 30%;
+    width: 70%;
+    background-color: white;
+    position: absolute;
+    top: 20px;
+    left: 70px;
+}
+
+.designer {
+    height: 30%;
+    width: 85%;
+    position: absolute;
+    top: 100px;
+    left: 36px;
+    background-color: white;
+}
+
+.jointheevent {
+    height: 50px;
+    width: 400px;
+    background-color: black;
+    margin: 200px auto 0px;
+}
+
+.schedule {
+    height: 100px;
+    width: 800px;
+    background-color: black;
+    margin: 50px auto;
+}
+
+.con {
+    padding: 0px 40px;
+}
+
+.conferencedays {
+    width: 60%;
+    margin: auto;
+    overflow: auto;
+    padding: 20px 20px;
+}
+
+.day2 {
+    height: 150px;
+    width: 200px;
+    float: left;
+    padding: 20px;
+    background-color: darkgray;
+    margin: 20px 20px;
+}
+
+.achievements {
+    height: 300px;
+    width: 70%;
+    background-color: darkgrey;
+    margin: auto;
+}
+
