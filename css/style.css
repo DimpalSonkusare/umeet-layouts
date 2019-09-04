@@ -387,6 +387,72 @@ html {
     height: 300px;
     width: 70%;
     background-color: darkgrey;
-    margin: auto;
+    margin: 50px auto 50px;
 }
 
+.adam-jamsmith {
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    position: relative;
+    display: inline-block
+}
+
+.adam-image {
+    height: 80px;
+    width: 80px;
+    background-color: white;
+    position: absolute;
+    top: 50px;
+    left: 110px;
+}
+
+.adam-name {
+    height: 40px;
+    width: 220px;
+    top: 160px;
+    left: 40px;
+    position: absolute;
+    background-color: white;
+}
+
+.adam-UIUX {
+    height: 35px;
+    width: 200px;
+    top: 230px;
+    left: 50px;
+    position: absolute;
+    background-color: white;
+}
+
+.previous-achivements {
+    height: 300px;
+    width: 78.5%;
+    background-color: black;
+    position: relative;
+    display: inline-block
+}
+.timing{
+    height: 30px;
+    width: 400px;
+    background-color: white;
+    top: 35px;
+    position: absolute;
+    left: 50px;
+}
+.previous-year{
+    height: 50px;
+    width: 600px;
+    background-color: white;
+    top: 85px;
+    left: 50px;
+    position: absolute;
+}
+.achivement-para{
+    height: 120px;
+    width: 90%;
+    position: absolute;
+    background-color: white;
+    top: 160px;
+    left: 50px;
+}
