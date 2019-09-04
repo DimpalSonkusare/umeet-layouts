@@ -45,10 +45,9 @@ html {
 }
 
 .home {
-    height: 100%;
-    width: 60px;
+    height: 40px;
+    width: 80px;
     background-color: black;
-    padding: 20px;
 }
 
 .conference {
@@ -72,7 +71,6 @@ html {
     width: 50px;
     background-color: white;
     margin: auto;
-    margin: 25px 720px;
     padding: 40px;
 }
 
@@ -101,107 +99,115 @@ html {
     height: 50%;
     width: 100%;
     background-color: lightgrey;
-    position:
 }
 
 .countainer2 {
-    height: 50%;
+    height: 100%;
     width: 80%;
     background-color: lightgrey;
-    left: 190px;
-    position: relative;
+    margin: auto;
+    overflow: auto;
 }
+
+.aboutUX {
+    height: 100%;
+    width: 40%;
+    background-color: lightgrey;
+    float: left;
+}
+
+.aboutUX2 {
+    height: 100%;
+    width: 60%;
+    background-color: lightgrey;
+    float: left;
+}
+
 
 .UXtitle {
     height: 90px;
     width: 400px;
     background-color: #3b1d82;
-    top: 50px;
-    position: absolute;
+    margin: 40px auto;
 }
 
 .sentence {
     height: 50px;
     width: 500px;
     background-color: #ea0763;
-    top: 200px;
-    position: absolute;
+    margin: 40px auto;
+
 }
 
 .para {
     height: 170px;
     width: 600px;
     background-color: #797979;
-    top: 280px;
-    position: absolute;
+    margin: 40px auto;
+
 }
 
 .time {
     height: 220px;
     width: 650px;
-    background-color: lightgray:;
-    left: 850px;
-    top: 80px;
-    position: relative;
+    margin: 35px auto;
 }
 
 .days {
     height: 180px;
     width: 180px;
     background-color: #17a2b8;
-    left: 25px;
-    top: 19px;
-    position: absolute;
+    margin: 17px;
+    display: inline-block;
 }
 
 .hours {
     height: 180px;
     width: 180px;
     background-color: #ffc107;
-    left: 230px;
-    top: 19px;
-    position: absolute;
+    margin: 17px;
+    display: inline-block;
 }
 
 .mins {
     height: 180px;
     width: 180px;
     background-color: #e83e8c;
-    top: 19px;
-    left: 440px;
-    position: absolute;
+    margin: 17px;
+    display: inline-block;
 }
 
 .line {
     height: 50px;
     width: 500px;
     background-color: hotpink;
-    position: absolute;
-    top: 330px;
-    right: 130px;
+    margin: 0px auto;
 }
 
 .getticket {
     height: 50px;
     width: 200px;
     background-color: #3b1d82;
-    position: absolute;
-    top: 400px;
-    right: 280px;
+    margin: 25px auto;
 }
 
-.event {
-    height: 50px;
-    width: 300px;
-    background-color: black;
-    margin: 200px 850px 0px 850px;
+.join-event {
+    height: 200px;
+    width: 100%;
 }
 
 .join {
+    height: 50px;
+    width: 300px;
+    background-color: black;
+    margin: 35px auto;
+}
+
+.event {
     height: 70px;
     width: 500px;
     background-color: black;
-    margin: 40px 800px 100px 750px;
+    margin: 35px auto;
 }
 
 .reasons {
@@ -216,16 +222,6 @@ html {
 }
 
 .service {
-    height: 450px;
-    width: 33.33%;
-}
-
-.business {
-    height: 450px;
-    width: 33.33%;
-}
-
-.speaker {
     height: 450px;
     width: 33.33%;
 }
@@ -349,11 +345,17 @@ html {
     background-color: white;
 }
 
+.join-schedule {
+    height: 30%;
+    width: 80%;
+    margin: auto;
+}
+
 .jointheevent {
     height: 50px;
     width: 400px;
     background-color: black;
-    margin: 200px auto 0px;
+    margin: 50px auto;
 }
 
 .schedule {
@@ -376,7 +378,7 @@ html {
 
 .day2 {
     height: 150px;
-    width: 200px;
+    width: 240px;
     float: left;
     padding: 20px;
     background-color: darkgray;
@@ -393,66 +395,161 @@ html {
 .adam-jamsmith {
     height: 300px;
     width: 300px;
-    background-color: black;
-    position: relative;
-    display: inline-block
+    background-color: #3f128a;
+    display: inline-block;
+    padding: 10px;
 }
 
 .adam-image {
     height: 80px;
     width: 80px;
     background-color: white;
-    position: absolute;
-    top: 50px;
-    left: 110px;
+    margin: 35px auto;
 }
 
 .adam-name {
     height: 40px;
     width: 220px;
-    top: 160px;
-    left: 40px;
-    position: absolute;
+    margin: 30px auto;
     background-color: white;
 }
 
 .adam-UIUX {
     height: 35px;
     width: 200px;
-    top: 230px;
-    left: 50px;
-    position: absolute;
+    margin: 30px auto;
     background-color: white;
 }
 
 .previous-achivements {
     height: 300px;
     width: 78.5%;
-    background-color: black;
+    background-color: darkgray;
     position: relative;
     display: inline-block
 }
-.timing{
+
+.timing {
     height: 30px;
     width: 400px;
-    background-color: white;
+    background-color: grey;
     top: 35px;
     position: absolute;
     left: 50px;
 }
-.previous-year{
+
+.previous-year {
     height: 50px;
     width: 600px;
-    background-color: white;
+    background-color: black;
     top: 85px;
     left: 50px;
     position: absolute;
 }
-.achivement-para{
+
+.achivement-para {
     height: 120px;
     width: 90%;
     position: absolute;
-    background-color: white;
+    background-color: gray;
     top: 160px;
     left: 50px;
+}
+
+.ticket-box {
+    height: 130%;
+    width: 100%;
+    background-color: lightgrey;
+    margin: 150px 0px 0px 0px;
+    position: relative;
+}
+
+.event-ticket {
+    height: 50px;
+    width: 400px;
+    background-color: black;
+    position: absolute;
+    top: 150px;
+    left: 800px;
+}
+
+.choose-ticket {
+    height: 100px;
+    width: 600px;
+    position: absolute;
+    top: 250px;
+    left: 700px;
+    background-color: black;
+}
+
+.ticket-ticket {
+    height: 60%;
+    width: 90%;
+    top: 500px;
+    left: 100px;
+    position: relative;
+    overflow: auto;
+}
+
+.first-ticket {
+    height: 100%;
+    width: 33.33%;
+    background-color: lightgrey;
+    padding: 30px;
+    float: left;
+}
+
+.inner4 {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    float: left;
+}
+
+.table-header {
+    height: 35%;
+    width: 100%;
+}
+
+.type {
+    height: 60px;
+    width: 200px;
+    background-color: black;
+    margin: 30px auto 20px;
+}
+
+.attend {
+    height: 50px;
+    width: 400px;
+    background-color: black;
+    margin: 20px auto;
+}
+
+.price {
+    height: 80px;
+    width: 300px;
+    margin: auto;
+    background-color: black;
+}
+
+.table-list {
+    height: 140px;
+    width: 100%;
+}
+.item1{
+    height: 40px;
+    width: 65%;
+    background-color: black;
+    margin: 10px auto;
+}
+.list {
+    height: 80%;
+    width: 80%;
+    background-color: black;
+    margin: 20px auto;
+}
+
+.table-footer {
+    height: 30%;
+    width: 100%;
 }
