@@ -67,18 +67,17 @@ html {
 }
 
 .mike {
-    height: 50px;
-    width: 50px;
+    height: 80px;
+    width: 80px;
     background-color: white;
     margin: auto;
-    padding: 40px;
 }
 
 .date {
-    height: 50px;
+    height: 60px;
     width: 700px;
     background-color: white;
-    margin: 30px 410px;
+    margin: 40px auto;
 }
 
 .title {
@@ -92,7 +91,7 @@ html {
     height: 70px;
     width: 250px;
     background-color: deeppink;
-    margin: 65px 635px;
+margin: 50px auto;
 }
 
 .UX {
@@ -680,22 +679,22 @@ html {
 
 .ummet-news {
     width: 50%;
-    background-color: blue;
+    background-color: lightgrey;
     float: left;
     padding: 20px;
 }
 
 .owls-image {
-    height: 300px;
+    height: 500px;
     width: 100%;
-    background-color: pink;
+    background-color: black;
 }
 
 .owls-text {
-    height: 50px;
-    width: 90%;
-    background-color: green;
-    margin: 20px 30px;
+    height: 80px;
+    width: 95%;
+    background-color: white;
+    margin: 20px;
 }
 
 .owls-timing {
@@ -705,9 +704,13 @@ html {
 }
 
 .owls-date {
-    height: 35px;
+    height: 60px;
     width: 40%;
     float: left;
-    background-color: darkred;
-    margin: 0px 30px
+    background-color: white;
+    margin: 0px 50px
+}
+.footer{
+    width: 100%;
+    height: 800px;
 }
