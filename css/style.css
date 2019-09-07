@@ -709,11 +709,153 @@ html {
     background-color: white;
     margin: 0px 50px
 }
-.margin-area{
-    height: 250px;
+
+.margin-area {
+    height: 200px;
 }
-.footer-box{
-    height: 500px;
+
+.footer {
+    background-color: #111429;
+    padding: 250px 0 0 0;
+}
+
+.footer-box {
+    height: 550px;
     width: 80%;
     margin: auto;
+    overflow: auto;
+}
+
+.footer-box1 {
+    /*    height: 450px;*/
+    width: 400px;
+    background-color: #111429;
+    float: left;
+    margin: 0px 25px;
+}
+
+.footer-box2 {
+    /*    height: 450px;*/
+    width: 400px;
+    background-color: #111429;
+    float: left;
+    margin: 0px 25px;
+}
+
+.footer-box3 {
+    /*    height: 450px;*/
+    width: 400px;
+    background-color: #111429;
+    float: left;
+    margin: 0px 25px;
+}
+
+.footer-box4 {
+    /*    height: 450px;*/
+    width: 400px;
+    background-color: #111429;
+    float: left;
+    margin: 0px 25px;
+}
+
+.footer-box-title {
+    height: 60px;
+    width: 300px;
+    background-color: white;
+    margin: 30px 0px 70px 0px;
+}
+
+.footer-box-para {
+    height: 325px;
+    width: 100%;
+    margin: 0px 20px 0px 0px;
+    background-color: darkgray;
+}
+
+.footer-box-link {
+    height: 325px;
+    width: 100%;
+    margin: 0px 20px 0px 0px;
+    overflow: auto;
+}
+
+.navigation-links {
+    height: 280px;
+    width: 40%;
+    float: left;
+    margin: 0px 39px 0px 0px;
+}
+
+.link1 {
+    height: 40px;
+    width: 125px;
+    background-color: darkgrey;
+    margin: 0px 0px 30px 0px;
+}
+
+.newslater-para {
+    height: 150px;
+    width: 100%;
+    background-color: darkgrey;
+}
+
+.Email-box {
+    overflow: auto;
+}
+
+.Email-ID {
+    height: 70px;
+    width: 85%;
+    margin: 20px 0px;
+    background-color: white;
+    float: left;
+}
+
+.button {
+    height: 70px;
+    width: 15%;
+    margin: 20px 0px;
+    background-color: deeppink;
+    float: left;
+}
+
+.instafeed {
+    height: 250px;
+    width: 100%;
+    margin: 0px 20px 0px 0px;
+    overflow: auto;
+}
+
+.instafeed-image {
+    height: 78px;
+    width: 78px;
+    background-color: darkgray;
+    margin: 0px 10px 10px 10px;
+    float: left;
+}
+
+.copyright-section {
+    height: 100px;
+    width: 100%;
+}
+
+.copyright-container {
+    width: 80%;
+    margin: auto;
+}
+
+.copyright {
+    height: 50px;
+    width: 65%;
+    background-color: darkgray;
+    float: left;
+    padding: 0px 50px;
+}
+
+.social-icons {
+    height: 50px;
+    width: 35%;
+    background-color: white;
+    float: left;
+    padding: 0px 20px;
 }
