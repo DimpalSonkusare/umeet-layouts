@@ -29,7 +29,7 @@ html {
 .umeet {
     height: 50%;
     width: 25%;
-    margin: 20px 190px;
+    margin: 40px 190px;
     background-color: black;
 }
 
@@ -40,7 +40,7 @@ html {
 }
 
 .items {
-    padding: 50px 30px;
+    padding: 60px 30px;
     float: left;
 }
 
@@ -145,7 +145,6 @@ html {
 
 .clockdiv {
     width: 100%;
-    background-color: black;
     padding: 20px;
     overflow: auto;
 }
@@ -331,7 +330,6 @@ html {
 }
 
 .join-schedule {
-    height: 25%;
     width: 80%;
     margin: auto;
 }
@@ -364,32 +362,30 @@ html {
 }
 
 .day2 {
-    height: 180px;
-    width: 290px;
+    width: 25%;
     float: left;
     padding: 20px;
 }
 
 .dayy {
-    height: 100%;
+    height: 180px;
     width: 100%;
-    padding: 30px;
     background-color: darkgray;
 }
 
 .achievements {
-    height: 300px;
     width: 70%;
     background-color: darkgrey;
     margin: 50px auto 50px;
+    overflow: auto;
 }
 
 .adam-jamsmith {
-    height: 300px;
-    width: 300px;
+    width: 25%;
     background-color: #3f128a;
     display: inline-block;
     padding: 10px;
+    float: left;
 }
 
 .adam-image {
@@ -407,17 +403,17 @@ html {
 }
 
 .adam-UIUX {
-    height: 35px;
+    height: 40px;
     width: 200px;
-    margin: 30px auto;
+    margin: 25px auto;
     background-color: white;
 }
 
 .previous-achivements {
-    height: 300px;
-    width: 78.5%;
+    width: 70%;
     background-color: darkgray;
     position: relative;
+    float: left;
     display: inline-block
 }
 
@@ -597,7 +593,6 @@ html {
 }
 
 .silver-sponsor-table {
-    height: 300px;
     width: 70%;
     margin: auto;
     overflow: auto;
@@ -613,7 +608,7 @@ html {
 
 .delivery {
     height: 225px;
-    width: 350px;
+    width: 33.33%;
     float: left;
     padding: 20px;
 }
@@ -715,6 +710,7 @@ html {
     width: 25%;
     padding: 0px 40px 0px 0px;
 }
+
 .footer-box1 {
     background-color: #111429;
 }
@@ -795,11 +791,13 @@ html {
     margin: 0px 20px 0px 0px;
     overflow: auto;
 }
-.feed-image{
+
+.feed-image {
     width: 100%;
     height: 70px;
     background-color: darkgray;
 }
+
 .instafeed-image {
     height: 90px;
     width: 25%;
